@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupando Colunas da Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 500px;
+           
+        }
+        caption{
+        font-size: 1.3em;
+        font-weight: bolder;
+        padding: 8px;
+       }
+    
+        th, td{
+            border: 1px solid gray;
+            padding: 8px;
+                   
+       }
+       .amarelo{
+        background-color:yellow;
+       }
+       .vermelho{
+        background-color:red;
+       }
+    </style>
+  
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+    
+    <table>
+    <!--tb podemos usar o cgrupo e usar o span = "3"-->
+        <colgroup>
+            <col class="amarelo">
+            <col class="vermelho">
+            <col class="amarelo">
+            <col class="vermelho">
+            </colgroup>
+
+        <caption>Cadastro</caption>
+        <!--scope colgroup uso qd estiver mescla no th com + de 1 coluna-->
+        <thead>
+        
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+            
+        </tr>
+        <tr>
+            <td>Analice</td>
+            <td>F</td>
+            <td>14</td>
+            <td>Eng. de Software</td>
+        </tr>
+
+        <tr>
+            <td>Fernando</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Aline</td>
+            <td>F</td>
+            <td>17</td>
+            <td>Eng. de dados</td>
+        </tr>
+        <tr>
+            <td>Gustavo</td>
+            <td>M</td>
+            <td>43</td>
+            <td>Motorista</td>
+        </tr>
+        <tr>
+            <td>Dryelly</td>
+            <td>F</td>
+            <td>29</td>
+            <td>Tec.logistica</td>
+        </tr>
+        <tr>
+            <td>Herica</td>
+            <td>F</td>
+            <td>42</td>
+            <td>Eng.Produção</td>
+        </tr>
+
+        </thead>
+        
+</table>     
+               
+</body>
+</html>            
+    
+    
