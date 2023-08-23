@@ -31,9 +31,9 @@ main {
 }
 h1 {
     text-align: center;
-    color: white;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.493);
-    font-size:2em; 
+    color: rgb(193, 189, 189);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.615);
+    font-size:1.5em; 
 }
 
 img {
