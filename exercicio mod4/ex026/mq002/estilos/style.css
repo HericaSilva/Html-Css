@@ -14,8 +14,9 @@ html, body {
     background-size: contain;
     background-repeat: no-repeat;
 }
-h1 {
+h1,p {
     color: white;
     text-shadow: 2px 2px 0px #152617;
+    text-align: center;
     padding: 10px;
 }
